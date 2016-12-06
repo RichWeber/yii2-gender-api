@@ -1,0 +1,27 @@
+{
+    "name": "richweber/yii2-gender-api",
+    "version":"0.1.0",
+    "description": "Yii2 extension of Gender API",
+    "keywords": ["yii2", "gender", "api"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/RichWeber/yii2-gender-api/issues",
+        "wiki": "https://github.com/RichWeber/yii2-gender-api/wiki",
+        "source": "https://github.com/RichWeber/yii2-gender-api"
+    },
+    "authors": [
+        {
+            "name": "RichWeber",
+            "email": "rbagatyi@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.10",
+        "yiisoft/yii2-authclient": "~2.1.1"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "richweber\\gender\\": "" }
+    }
+}
